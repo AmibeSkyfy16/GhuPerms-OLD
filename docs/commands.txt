@@ -1,0 +1,25 @@
+ghuperms create group <identifier> <weight> <desc> <parentName>
+			
+ghuperms create permission <identifier> <desc>
+
+ghuperms delete group <identifier>
+			
+ghuperms delete permission <identifier>
+
+
+ghuperms modify group <name> add permission <permissionName> <permValue>
+
+ghuperms modify group <name> remove permission <permissionName> 
+
+
+ghuperms modify player <name> add group <groupName>
+
+ghuperms modify player <name> remove group <groupName>
+
+ghuperms modify player <name> add permission <permissionName> <permValue>
+
+ghuperms modify player <name> remove permission <permissionName>
+
+
+	
+		
